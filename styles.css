@@ -1,9 +1,15 @@
 *{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #f9faf9;
+    
 }
 
 body{
+    margin: 0;
+    
+}
+
+p{
     margin: 0;
 }
 
@@ -71,6 +77,7 @@ button{
 .information{
     display: flex;
     flex-direction: column;
+    padding-bottom: 90px;
 }
 
 .groups{
@@ -98,4 +105,71 @@ button{
     border-style: solid;
     border-color: #3882f6;
     border-radius: 10px;
+}
+
+.quote-cont{
+    padding: 90px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.quote-cont.container{
+    display: flex;
+    flex-direction: column;
+}
+.quote-cont .container .quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color:  #1f2937;
+}
+.quote-cont .container .author{
+    color: black;
+    font-size: large;
+    font-weight: 700;
+    display: flex;
+    justify-content: end;
+}
+.cta-container{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 50px;
+}
+.cta-container .banner{
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 20px 50px 20px 50px;
+    gap: 200px;
+}
+.cta-container .banner .button{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.cta-container .banner .button button{
+    border: 2px solid white;
+    border-radius: 5px;
+    align-content: center;
+}
+
+p.head{
+    font-weight: 700;
+}
+footer{
+    background-color: #1f2937;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    padding: 40px 0 40px 0;
+    font-size: large;
 }
